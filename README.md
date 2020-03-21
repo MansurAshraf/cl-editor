@@ -44,7 +44,7 @@ const editor = new Editor({
         // available actions:
         // 'viewHtml', 'undo', 'redo', 'b', 'i', 'u', 'strike', 'sup', 'sub', 'h1', 'h2', 'p', 'blockquote', 
         // 'ol', 'ul', 'hr', 'left', 'right', 'center', 'justify', 'a', 'image', 'forecolor', 'backcolor', 'removeFormat'
-        actions: [
+        props: [
             'b', 'i', 'u', 'strike', 'ul', 'ol',
             {
                 name: 'copy', // required
